@@ -4,6 +4,9 @@
 -- This script sets up the database, schema, and roles for the hospital demo
 -- IMPORTANT: Run this script as ACCOUNTADMIN for warehouse creation privileges
 
+-- 0. Change role
+USE ROLE accountadmin;
+
 -- 1. Create Database and Schema
 CREATE OR REPLACE DATABASE HOSPITAL_DEMO
 COMMENT = 'Database for hospital clinical team Snowflake demonstration';
