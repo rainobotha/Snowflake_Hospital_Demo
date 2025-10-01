@@ -544,3 +544,4 @@ SELECT 'Data loading completed successfully!' as status_message;
 SELECT 'Raw tables populated and ready for transformation.' as next_step;
 SELECT 'Directory table enabled for file metadata tracking.' as enterprise_feature;
 SELECT 'Server-side encryption protects all staged data.' as security_feature;
+ 
