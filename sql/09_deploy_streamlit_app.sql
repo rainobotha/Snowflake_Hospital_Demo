@@ -9,8 +9,14 @@ USE DATABASE HOSPITAL_DEMO;
 USE SCHEMA ANALYTICS;
 
 -- 1. Upload the Streamlit app file to the stage
+--Option A
+-- Copy hospital_analytics_app.py to @HOSPITAL_DATA_STAGE using Snowsight BEFORE running the code below
+
+--Option B
 -- Note: You need to run this PUT command from your local machine first:
 -- PUT file://path/to/hospital_analytics_app.py @HOSPITAL_DATA_STAGE;
+
+
 
 -- 2. Create the Streamlit app in Snowflake
 CREATE OR REPLACE STREAMLIT HOSPITAL_ANALYTICS_APP
