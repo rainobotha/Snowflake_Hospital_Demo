@@ -382,10 +382,10 @@ ORDER BY bed_count DESC;
 SELECT 'Department Utilization Summary' as report_title;
 SELECT 
     department_name,
-    utilization_percentage,
+    avg_utilization_percentage,
     capacity_recommendation
 FROM VW_BED_CAPACITY_PLANNING
-ORDER BY utilization_percentage DESC;
+ORDER BY avg_utilization_percentage DESC;
 
 -- Revenue analysis summary
 SELECT 'Bed Revenue Analysis Summary' as report_title;
