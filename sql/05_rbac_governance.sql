@@ -291,3 +291,4 @@ ORDER BY OBJECT_NAME, COLUMN_NAME;
 
 SELECT 'RBAC and Data Governance setup completed successfully!' as status_message;
 SELECT 'Healthcare data is now properly secured and compliant.' as next_step;
+ 
