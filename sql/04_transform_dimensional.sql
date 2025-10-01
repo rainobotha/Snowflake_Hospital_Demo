@@ -577,3 +577,4 @@ SELECT * FROM VW_DIMENSIONAL_SUMMARY;
 
 SELECT 'Dimensional model transformation completed successfully!' as status_message;
 SELECT 'Star schema ready for analytics and reporting.' as next_step;
+ 
